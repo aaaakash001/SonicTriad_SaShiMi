@@ -20,7 +20,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 #device = torch.device("cpu")
 device
 
-DURATION = int(sys.argv[1]  if sys.argv[1] is not None else 8)
+DURATION = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1] else 8
 
 def load_model(model, name, _epoch=None):
     global epoch, device, model_name, model_folder

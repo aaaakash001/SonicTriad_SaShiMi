@@ -7,7 +7,7 @@ Karan Goel, Albert Gu, Chris Donahue, Christopher Ré
 [*ICML 2022*](https://icml.cc/virtual/2022/poster/17773)
 
 This repository provides a simple implementation of this paper in PyTorch
-
+adapted from https://github.com/necrashter/SaShiMi-796
 
 ## Installation
 

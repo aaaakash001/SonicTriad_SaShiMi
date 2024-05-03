@@ -6,16 +6,7 @@ Karan Goel, Albert Gu, Chris Donahue, Christopher Ré
 
 [*ICML 2022*](https://icml.cc/virtual/2022/poster/17773)
 
-This repository provides a re-implementation of this paper in PyTorch
-This re-implementation is provided by:
-* İlker Işık, e238051@metu.edu.tr
-* Muhammed Can Keleş, e265013@metu.edu.tr
-
-Please see the following Jupyter Notebooks for more information:
-- [main.ipynb](main.ipynb): Summary of the paper, implementation notes and our experimental results.
-- [Ablation.ipynb](Ablation.ipynb): Our experiments with 2-Layer SaShiMi on Youtube Mix dataset.
-- [S4-MNIST-Demo.ipynb](S4-MNIST-Demo.ipynb): A demo on MNIST dataset that showcases the S4 layer, which is the main building block in SaShiMi.
-- [SaShiMi-MNIST-Demo.ipynb](SaShiMi-MNIST-Demo.ipynb): Training and testing the SaShiMi model on MNIST dataset.
+This repository provides a simple implementation of this paper in PyTorch
 
 
 ## Installation
